@@ -17,6 +17,7 @@ export const getRedirectUrl = (
   return `${loginUrl}?client_id=${clientID}&response_type=code&redirect_uri=${callbackUrl}&state=${guid}&ui_locales=${languageParam}`;
 };
 
+
 export const getUserDetails = async (
   serviceUrl: string,
   rawCode: string,
