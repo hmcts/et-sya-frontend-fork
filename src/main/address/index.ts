@@ -4,7 +4,6 @@ import config from 'config';
 import { getLogger } from '../logger';
 import { axiosErrorDetails } from '../services/AxiosErrorAdapter';
 
-
 const logger = getLogger('address');
 
 export const getAddressesForPostcode = async (postcode: string): Promise<Address[]> => {
